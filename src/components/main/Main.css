@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Permanent+Marker&display=swap");
+
+.tour {
+  text-align: center;
+  background-color: rgba(0, 0, 255, 0.127);
+  margin: 0;
+  padding: 2rem;
+  font-size: 3.1rem;
+  font-family: "Amatic SC", cursive;
+}
+
+.containerCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(0, 0, 255, 0.127);
+  font-family: "Hubballi", cursive;
+}
+
+.card {
+  margin: 1rem;
+  padding: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.231);
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 3rem;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.531);
+}
+
+.card:hover p {
+  transform: translateY(0%);
+}
+
+.card h1 {
+  color: rgba(0, 0, 255, 0.427);
+}
+
+.card p {
+  width: 400px;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  /* left: 0; */
+  background-color: rgba(0, 0, 0, 0.331);
+  /* padding: 0.5rem; */
+  /* padding-left: 0.6rem; */
+  transform: translateY(140%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.card img {
+  height: 350px;
+  border-radius: 7px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card img:hover {
+  filter: grayscale(100);
+}
